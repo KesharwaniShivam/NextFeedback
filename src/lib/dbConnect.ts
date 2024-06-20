@@ -24,3 +24,4 @@ async function dbConnection () : Promise<void> {  // void because we dont know w
         process.exit(1)
     }
 }
+export default dbConnection
